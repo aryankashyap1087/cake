@@ -46,4 +46,9 @@ body {
     width: 100%;
     height: auto;
   }
+  .cakeimg{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 }
