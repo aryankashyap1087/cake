@@ -1,6 +1,22 @@
 body {
   background-color: #ffdcdc;
 }
+.homehead {
+  position: sticky;
+  top: 0px;
+  border: 10px solid #fdacac;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: #ffcdc9;
+  font-size: large;
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
 .header {
   background-color: #fff2eb;
   text-align: center;
@@ -22,7 +38,7 @@ body {
   border: 1px solid;
 }
 .cake {
-  border: 20px solid #fdacac;
+  border: 10px solid #fdacac;
   padding: 40px;
   display: flex;
   flex-direction: row;
@@ -31,29 +47,51 @@ body {
 .caketext {
   padding: 30px;
   display: flex;
-  text-align:left;
+  text-align: left;
 }
 .caketexttitle {
   display: flex;
   justify-content: center;
-  font-family: "Black Ops One", system-ui;
+  font-size: xx-large;
+  font-family: "Bitcount Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+.cakebox {
+  margin-top: 20px;
+  padding: 40px;
+  border: 10px solid #fdacac;
+  border-radius: 50px;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: xx-large;
+  font-size: 50px;
 }
+
 @media (max-width: 765px) {
   .cake {
     display: flex;
     flex-direction: column;
     height: auto;
   }
-  .cakeimg{
+  .cakeimg {
     width: 100%;
     height: auto;
     display: block;
   }
-  .caketext{
+  .caketext {
     display: flex;
     text-align: center;
+    font-family: "Syne Mono", monospace;
+    font-size:xx-small;
+  }
+  .cakebox {
+    font-size: medium;
   }
 }
