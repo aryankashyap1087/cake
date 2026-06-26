@@ -20,6 +20,8 @@ body {
 .header {
   background-color: #fff2eb;
   text-align: center;
+  border: 1px solid;
+  margin-bottom: 20px;
   font-size: 30px;
   border-radius: 50px;
   font-family: "Black Ops One", system-ui;
@@ -93,5 +95,11 @@ body {
   }
   .cakebox {
     font-size: medium;
+  }
+  .homehead{
+    font-size: x-small;
+  }
+  .header{
+    font-size: large;
   }
 }
